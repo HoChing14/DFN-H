@@ -28,7 +28,7 @@ Paraview
 
 4 Quick start
 4.1 clone codes:
-git clone 
+git clone https://github.com/HoChing14/DFN-H.git
 4.2 DFN-H core code compliation:
 cd ../tough_codes
 Before compliation, open the file "sequence.txt" in this directory and modify the first line to your username, then:
