@@ -1,0 +1,35 @@
+# A EOS1 tracer test problem
+ROCKS
+ROCK1    0      2600       1.0perm1perm1perm1perm1perm1perm1       3.0     920.0
+ROCK2    0  2600.e00     1.e-5perm2perm2perm2perm2perm2perm2       3.0     920.0
+
+MULTI
+    1    2    2    8
+
+START
+REACT
+3002
+PARAM
+   29999    9999000000000000020671005000
+          tttttttttt    1.e+01tmtmtmtmtm            0.000000
+    1.0E-3
+         1.03125E+05                25.0
+
+GENER
+injme    1                   1     WATE injrainjra  3.6232E5
+extme    1                   1     DELV 2.3395E-10     3.0E7     0.001
+
+FOFT
+injme
+extme
+
+GOFT
+injme
+extme
+
+REFPT
+ 2       1.000     193.50       0.0
+TIMES
+    5
+       0.0    8.64E3    8.64E4    8.64E6    8.64E7
+ENDCY
