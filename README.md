@@ -27,19 +27,20 @@ Python (version 3.7+, mandatory packages: numpy, scipy, math, pandas, re, copy, 
 Paraview
 
 4 Quick start
-
-4.1 DFN-H core code compliation:
+4.1 clone codes:
+git clone 
+4.2 DFN-H core code compliation:
 cd ../tough_codes
 Before compliation, open the file "sequence.txt" in this directory and modify the first line to your username, then:
 python main.py
 The compliation succeeds when no information except "Compilation successful!" appears on the screen.
 
-4.2 Run accuracy verification example
+4.3 Run accuracy verification example
 cd ../ana_solu
 python main.py
 If the run succeeds, output files named "spatial.txt" and "temporal.txt" (spatial and temporal temperature variation results of analytical solution and DFN-H numerical solution) are created or overwritten. The above results can be imported into Origin or Excel for visulization.
 
-4.3 Run genericity and efficiency verification examples
+4.4 Run genericity and efficiency verification examples
 The following commands executes the forward modeling of the corresponding example:
 cd ../nume_1 (or nume_2, nume_3)
 python main.py
