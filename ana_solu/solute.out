@@ -1,0 +1,152 @@
+  ---> start reading solute.inp
+ 'Aqueous transport with Kd and decay'                                             
+
+ ****** Writing solute transport input ******
+
+
+ Options for controlling chemical calculations:
+ *******************************************
+  Using sequential non-iterative approach
+ Initializing boundary & recharge input solution
+ Iterative solver - See Tough2 V2 Manual
+ Default 2 Iterations: DH and Chemical Solver
+ Number of gaseous species for transport=  0
+ Not print chemical speciation results at each grid block and each time step
+ Monitor porosity and permeability changes but do not affect fluid flow
+  CO2 and H2O reaction sources are not considered in the flow simulation (only for EOS2 or ECO2 module)
+ Calculate derivatives of mineral kinetic rates by analytical method
+
+ Constraints for chemistry solver:
+ *********************************
+ Minimum liquid saturation = 0.1000E-03
+ No Courant number limitation on transport time steps
+ Maximum stoichiometric ionic strength = 0.4000E+01
+ Iteration info:iter.dat            
+
+ Time/space weighting factors and diffusion coefficients':
+ *******************************************************
+    WTIME     WUPC    DIFUN     DIFUNG
+      1.00      1.00 0.100E-08 0.000E+00
+
+ Convergence tolerance data:
+ ***********************
+ Maximum iterations for solving transport =    1
+ Relative tolerance for solving transport = 0.100E-03
+ Maximum iterations for whole chemical system =  300
+ Relative tolerance' for whole chemical system = 0.100E-04
+ (absolute mass action tolerance set at min. 1.E-6)
+ Rel. con. change tolerance for steady-state = 0.000E+00
+ Maximum iterations for solving adsorption =   30
+ Relative tolerance for solving adsorption = 0.100E-05
+
+ Printout/output control flags:
+ *********************
+ Writing frequency in time =    1
+ Number of nodes to output in time file =    1
+ Number of primary species (total amounts) to output time/plot files =    1
+ ICONFLAG(0=mol/kg H2O,1=mol/L,2=g/L,3=mg/L(ppm))=    1
+ MINFLAG(0=change in mol/m3, 1=change in volume fraction, 2=current volume fraction, 3=change in volume%)=    1
+
+ Input and output file names:
+ ***************************
+ Thermo. database:TherAkin10.dat      
+ Plot aqueous:kdd_conc.dat        
+ Plot time series:kdd_tim.dat         
+
+ Elements for which to output time series:
+ A1180
+ Aqueous components for which to output data: 
+    3
+
+ Default values for chemical zones:
+
+             IZIW IZBW IZMI IZGS IZAD IZEX IZPP IZKD
+             ---- ---- ---- ---- ---- ---- ---- ----
+                1    1    1    1    1    1    1    1
+
+ Data for chemical zones:
+
+   ELEM INDX IZIW IZBW IZMI IZGS IZAD IZEX IZPP IZKD
+   ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+  A11 1    1    1    1    1    1    1    1    1    1
+  A11 2    2    1    1    1    1    1    1    1    1
+  A11 3    3    1    1    1    1    1    1    1    1
+  A11 4    4    1    1    1    1    1    1    1    1
+  A11 5    5    1    1    1    1    1    1    1    1
+  A11 6    6    1    1    1    1    1    1    1    1
+  A11 7    7    1    1    1    1    1    1    1    1
+  A11 8    8    1    1    1    1    1    1    1    1
+  A11 9    9    1    1    1    1    1    1    1    1
+  A1110   10    1    1    1    1    1    1    1    1
+  A1111   11    1    1    1    1    1    1    1    1
+  A1112   12    1    1    1    1    1    1    1    1
+  A1113   13    1    1    1    1    1    1    1    1
+  A1114   14    1    1    1    1    1    1    1    1
+  A1115   15    1    1    1    1    1    1    1    1
+  A1116   16    1    1    1    1    1    1    1    1
+  A1117   17    1    1    1    1    1    1    1    1
+  A1118   18    1    1    1    1    1    1    1    1
+  A1119   19    1    1    1    1    1    1    1    1
+  A1120   20    1    1    1    1    1    1    1    1
+  A1121   21    1    1    1    1    1    1    1    1
+  A1122   22    1    1    1    1    1    1    1    1
+  A1123   23    1    1    1    1    1    1    1    1
+  A1124   24    1    1    1    1    1    1    1    1
+  A1125   25    1    1    1    1    1    1    1    1
+  A1126   26    1    1    1    1    1    1    1    1
+  A1127   27    1    1    1    1    1    1    1    1
+  A1128   28    1    1    1    1    1    1    1    1
+  A1129   29    1    1    1    1    1    1    1    1
+  A1130   30    1    1    1    1    1    1    1    1
+  A1131   31    1    1    1    1    1    1    1    1
+  A1132   32    1    1    1    1    1    1    1    1
+  A1133   33    1    1    1    1    1    1    1    1
+  A1134   34    1    1    1    1    1    1    1    1
+  A1135   35    1    1    1    1    1    1    1    1
+  A1136   36    1    1    1    1    1    1    1    1
+  A1137   37    1    1    1    1    1    1    1    1
+  A1138   38    1    1    1    1    1    1    1    1
+  A1139   39    1    1    1    1    1    1    1    1
+  A1140   40    1    1    1    1    1    1    1    1
+  A1141   41    1    1    1    1    1    1    1    1
+  A1142   42    1    1    1    1    1    1    1    1
+  A1143   43    1    1    1    1    1    1    1    1
+  A1144   44    1    1    1    1    1    1    1    1
+  A1145   45    1    1    1    1    1    1    1    1
+  A1146   46    1    1    1    1    1    1    1    1
+  A1147   47    1    1    1    1    1    1    1    1
+  A1148   48    1    1    1    1    1    1    1    1
+  A1149   49    1    1    1    1    1    1    1    1
+  A1150   50    1    1    1    1    1    1    1    1
+  A1151   51    1    1    1    1    1    1    1    1
+  A1152   52    1    1    1    1    1    1    1    1
+  A1153   53    1    1    1    1    1    1    1    1
+  A1154   54    1    1    1    1    1    1    1    1
+  A1155   55    1    1    1    1    1    1    1    1
+  A1156   56    1    1    1    1    1    1    1    1
+  A1157   57    1    1    1    1    1    1    1    1
+  A1158   58    1    1    1    1    1    1    1    1
+  A1159   59    1    1    1    1    1    1    1    1
+  A1160   60    1    1    1    1    1    1    1    1
+  A1161   61    1    1    1    1    1    1    1    1
+  A1162   62    1    1    1    1    1    1    1    1
+  A1163   63    1    1    1    1    1    1    1    1
+  A1164   64    1    1    1    1    1    1    1    1
+  A1165   65    1    1    1    1    1    1    1    1
+  A1166   66    1    1    1    1    1    1    1    1
+  A1167   67    1    1    1    1    1    1    1    1
+  A1168   68    1    1    1    1    1    1    1    1
+  A1169   69    1    1    1    1    1    1    1    1
+  A1170   70    1    1    1    1    1    1    1    1
+  A1171   71    1    1    1    1    1    1    1    1
+  A1172   72    1    1    1    1    1    1    1    1
+  A1173   73    1    1    1    1    1    1    1    1
+  A1174   74    1    1    1    1    1    1    1    1
+  A1175   75    1    1    1    1    1    1    1    1
+  A1176   76    1    1    1    1    1    1    1    1
+  A1177   77    1    1    1    1    1    1    1    1
+  A1178   78    1    1    1    1    1    1    1    1
+  A1179   79    1    1    1    1    1    1    1    1
+  A1180   80    1    1    1    1    1    1    1    1
+ end
+  ---> finished reading solute.inp 

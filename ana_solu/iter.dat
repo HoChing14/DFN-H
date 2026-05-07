@@ -1,0 +1,18 @@
+
+          ---- Modelling Progress and Iteration Messages ----
+
+   Description of column-headers and variables:
+   ITERFL  = Iterations to solve flow
+   ITERSQ  = Sequential transport-chemistry iterations
+   MAXITCH = Maximum iterations to solve chemistry
+   AVGITCH = Average iterations to solve chemistry
+   DELTA-T = Current time step (days)
+   Dt limit = Criterion limiting timestep
+   Maxitch ID = Grid block: maximum chemical iterations
+
+     STEP   Time(day)   ITERFL ITERSQ MAXITCH AVGITCH Delta-t(day)  Dt limit       Maxitch ID
+ ----------------------------------------------------------------------------------------------------------
+        0  0.000000E+00     0     0     11    9.500  0.00000E+00  Flo_Delta_t            
+
+  ...done!   simulation finished
+

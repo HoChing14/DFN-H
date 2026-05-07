@@ -1,0 +1,27 @@
+  ---> start reading solute.inp
+  ---> finished reading solute.inp 
+
+ --> start reading chemical input data from chemical.inp
+
+
+ Temporarily stop reading chemical.inp to read thermodynamic database....
+    --> Start reading thermodynamic database: TherAkin10.dat      
+
+  --- List of all possible aqueous complexes --- 
+          oh-                 
+
+  --- Aqueous complexes selected -------------- 
+          oh-                 
+  ---------------------------------------------- 
+
+    --> Finished reading thermodynamic database
+ ....back to reading chemical.inp
+ --> Finished reading chemical.inp file
+
+ see output file: iter.dat             for time and time step information
+
+
+     !! Flow: Skip transport and chemistry, MOPR(1) =  1
+
+  ...done!   simulation finished
+
