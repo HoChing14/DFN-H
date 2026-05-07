@@ -1,0 +1,5 @@
+temperatures of top and bottom surface (as well as reference points and its accuracy) and depth: 184.5,202.5,3.0,600.0
+time of simulations:6.00E2,4.32E3,8.64E8
+max time steps:1.20E2,4.32E1,1.728E6
+inject concentration and valid ratio:7.2d-2,1.0,80.0,0.05
+short period: 8.64E6
