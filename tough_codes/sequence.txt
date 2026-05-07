@@ -1,0 +1,12 @@
+zhenjiao
+rctprop_v2.f	meshm_v2.f	t2solv_v2.f
+t2f_v2.f
+t2cg22_v2.f	eos1_v2.f
+multi_v2.f
+geochem_v2.f
+readtherm_hkf.f
+aqueous_kin.f	readsolu_v2.f
+newton_v2.f
+inichm_v2.f
+treact_v2.f
+main_v2.f

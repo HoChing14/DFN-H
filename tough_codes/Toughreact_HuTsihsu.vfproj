@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{2B2B9E95-2F3A-4552-AACF-1B6B362EDC33}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd">
+		<File RelativePath=".\chempar_v2.inc"/>
+		<File RelativePath=".\common_v2.inc"/>
+		<File RelativePath=".\flowpar_v2.inc"/>
+		<File RelativePath=".\perm_v2.inc"/>
+		<File RelativePath=".\variates list.txt"/></Filter>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\adsorption.f"/>
+		<File RelativePath=".\aqueous_kin.f"/>
+		<File RelativePath=".\eos1_v2.f"/>
+		<File RelativePath=".\geochem_v2.f"/>
+		<File RelativePath=".\inichm_v2.f"/>
+		<File RelativePath=".\main_v2.f"/>
+		<File RelativePath=".\meshm_v2.f"/>
+		<File RelativePath=".\multi_v2.f"/>
+		<File RelativePath=".\newton_v2.f"/>
+		<File RelativePath=".\rctprop_v2.f"/>
+		<File RelativePath=".\readsolu_v2.f"/>
+		<File RelativePath=".\readtherm_hkf.f"/>
+		<File RelativePath=".\t2cg22_v2.f"/>
+		<File RelativePath=".\t2f_v2.f"/>
+		<File RelativePath=".\t2solv_v2.f"/>
+		<File RelativePath=".\treact_v2.f"/></Filter></Files>
+	<Globals/></VisualStudioProject>
