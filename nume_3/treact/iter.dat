@@ -1,0 +1,63 @@
+
+          ---- Modelling Progress and Iteration Messages ----
+
+   Description of column-headers and variables:
+   ITERFL  = Iterations to solve flow
+   ITERSQ  = Sequential transport-chemistry iterations
+   MAXITCH = Maximum iterations to solve chemistry
+   AVGITCH = Average iterations to solve chemistry
+   DELTA-T = Current time step (days)
+   Dt limit = Criterion limiting timestep
+   Maxitch ID = Grid block: maximum chemical iterations
+
+     STEP   Time(day)   ITERFL ITERSQ MAXITCH AVGITCH Delta-t(day)  Dt limit       Maxitch ID
+ ----------------------------------------------------------------------------------------------------------
+       68  0.200116E+00     2     1      0    0.000  0.11574E-03  Flo_Delta_t            
+       69  0.200347E+00     2     1      0    0.000  0.23148E-03  Flo_Delta_t            
+       70  0.200810E+00     3     1      0    0.000  0.46296E-03  Flo_Delta_t            
+       71  0.201736E+00     3     1      0    0.000  0.92593E-03  Flo_Delta_t            
+       72  0.203588E+00     3     1      0    0.000  0.18519E-02  Flo_Delta_t            
+       73  0.207292E+00     3     1      0    0.000  0.37037E-02  Flo_Delta_t            
+       74  0.214699E+00     3     1      0    0.000  0.74074E-02  Flo_Delta_t            
+       75  0.229514E+00     3     1      0    0.000  0.14815E-01  Flo_Delta_t            
+       76  0.259144E+00     3     1      0    0.000  0.29630E-01  Flo_Delta_t            
+       77  0.318403E+00     3     1      0    0.000  0.59259E-01  Flo_Delta_t            
+       78  0.436921E+00     3     1      0    0.000  0.11852E+00  Flo_Delta_t            
+       79  0.500000E+00     3     1      0    0.000  0.63079E-01  Flo_Delta_t            
+       80  0.626157E+00     3     1      0    0.000  0.12616E+00  Flo_Delta_t            
+       81  0.878472E+00     3     1      0    0.000  0.25231E+00  Flo_Delta_t            
+       82  0.138310E+01     4     1      0    0.000  0.50463E+00  Flo_Delta_t            
+       83  0.239236E+01     4     1      0    0.000  0.10093E+01  Flo_Delta_t            
+       84  0.441088E+01     4     1      0    0.000  0.20185E+01  Flo_Delta_t            
+       85  0.844792E+01     4     1      0    0.000  0.40370E+01  Flo_Delta_t            
+       86  0.165220E+02     4     1      0    0.000  0.80741E+01  Flo_Delta_t            
+       87  0.326701E+02     4     1      0    0.000  0.16148E+02  Flo_Delta_t            
+       90  0.144966E+03     4     1      0    0.000  0.40000E+02  Max_Delta_t            
+      100  0.544966E+03     4     1      0    0.000  0.40000E+02  Max_Delta_t            
+      110  0.944966E+03     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      120  0.134497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      130  0.174497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      140  0.214497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      150  0.254497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      160  0.294497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      170  0.334497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      180  0.374497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      190  0.414497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      200  0.454497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      210  0.494497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      220  0.534497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      230  0.574497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      240  0.614497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      250  0.654497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      260  0.694497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      270  0.734497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      280  0.774497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      290  0.814497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      300  0.854497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      310  0.894497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      320  0.934497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      330  0.974497E+04     3     1      0    0.000  0.40000E+02  Max_Delta_t            
+      337  0.100000E+05     3     1      0    0.000  0.15034E+02  Max_Delta_t            
+
+  ...done!   simulation finished
+

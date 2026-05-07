@@ -1,0 +1,80 @@
+# Title
+'Aqueous transport with Kd and decay'
+# '-----------------------------------------------------------------------------'
+# 'DEFINITION OF THE GEOCHEMICAL SYSTEM'
+# 'PRIMARY AQUEOUS SPECIES'
+'h2o'       0
+'h+'        0
+'tracer'    0
+'*'
+# 'AQUEOUS KINETICS'
+'*'
+# 'AQUEOUS COMPLEXES'
+'oh-'
+'*'
+# 'MINERALS'
+'*'         
+# 'GASES'
+'*'
+# 'SURFACE COMPLEXES'
+'*'
+# 'species with Kd and decay    decay constant(1/s)'
+'tracer' 0.0d0 0.0 0.0 ! with only Kd
+'*'
+# 'EXCHANGEABLE CATIONS'
+'*'
+#'----------------------------------------------------------------------------'
+# 'INITIAL AND BOUDARY WATER TYPES'
+1   1        !niwtype, nbwtype = number of initial and boundary waters
+# Index  Speciation T(C)  P(bar)
+1              193.5     344.2	     
+#'        icon        guess         ctot         '
+'h2o'      1        1.000d+0       1.000d+0       ,  ,   0.   
+'h+'       1        1.0000d-7      1.000d-7       ,  ,   0.       
+'tracer'   1        1.000d-10      1.000d-10      ,  ,   0.       
+'*'
+# Index  Speciation T(C)  P(bar)
+1               80.0     344.2	     
+#'       icon        guess         ctot         '
+'h2o'      1        1.000d+0       1.000d+0       ,  ,   0.       
+'h+'       1        1.0000d-7      1.000d-7       ,  ,   0.
+'tracer'   1        8.8d-2      8.8d-2      ,  ,   0.
+'*'
+#'----------------------------------------------------------------------------'
+#'INITIAL MINERAL ZONES'
+'*'
+#'----------------------------------------------------------------------------'
+#'INITIAL gas ZONES'
+'*'
+#'----------------------------------------------------------------------------'
+#'Permeability-Porosity Zones'
+'*'
+#'----------------------------------------------------------------------------'
+#'INITIAL SURFACE ADSORPTION ZONES'
+'*'
+#'----------------------------------------------------------------------------'
+#'INITIAL LINEAR EQUILIBRIUM Kd ZONE'
+1
+1
+#'species solid-density(Sden,kg/dm**3) Kd(l/kg=mass/kg solid / mass/l'
+'tracer' 0.0 1.04 0
+'*'
+#'---------------------------------------if Sden=0 Kd store retardation factor'
+#'INITIAL ZONES OF CATION EXCHANGE'
+'*'
+#'----------------------------------------------------------------------------'
+#'end'
+
+'calcite'   0  0   0            0
+0.0    0.    0.00
+
+1    1
+#           master        convention     ex. coef.
+'li+'          1              1           1.0000
+'ca+2'         0              1           0.2829
+
+1
+1
+# mineral         vol.frac
+'calcite'           0.3       0
+

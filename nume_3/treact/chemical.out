@@ -1,0 +1,70 @@
+
+ --> start reading chemical input data from chemical.inp
+
+'Aqueous transport with Kd and decay'                                                               
+--------------------------------------------------------------------------------
+ DEFINITION OF THE GEOCHEMICAL SYSTEM
+ PRIMARY AQUEOUS SPECIES
+ h2o                                     0
+ h+                                      0
+ tracer                                  0
+
+ finished reading all primary species
+ total primary species =   3, aqueous =   3
+ AQUEOUS COMPLEXES
+ oh-                 
+ finished reading secondary species, naqx =   1
+SPECIES WITH KD AND DECAY
+Species          Decay const. (1/s)    Th. decay a Th. decay b
+tracer               0.00000E+00      0.00000E+00      0.00000E+00
+ finished reading kd/decay species, nkdd  =   1
+
+
+ Temporarily stop reading chemical.inp to read thermodynamic database....
+    --> Start reading thermodynamic database: TherAkin10.dat      
+    --> Finished reading thermodynamic database
+ ....back to reading chemical.inp
+--------------------------------------------------------------------------------
+ SUMMARY OF THERMODYNAMIC DATA FOR THE CHEMICAL SYSTEM
+
+  Components     a0    charge
+ h2o            0.000    0.0
+ h+             3.080    1.0
+ tracer         0.000    0.0
+
+ Log K interpolation coefficients as a function of temperature (K) (a,b,c,d,e)
+ valid temperature range (deg.C.):   0.0 to 300.0
+                        a*ln(TK)       b          c*TK     d*(TK)**-1  e*(TK)**-2
+ oh-                  -1.1609E+02  7.4186E+02  1.1647E-01 -3.8963E+04  2.6264E+06
+
+ Derived Species Reactions
+  species        a0   charge  logK(25. C)  h2o    h+     tracer 
+ oh-            1.400  -1.0       13.991   1.00  -1.00   0.00
+
+--------------------------------------------------------------------------------
+ INITIAL AND BOUDARY WATERS
+
+ Initial Water Type  1
+ T = 193.50 degrees Celsius, P = 344.20 bar
+        icon        guess        ctot        constrain
+ h2o     1        0.1000E+01        0.1000E+01
+ h+      1        0.1000E-06        0.1000E-06
+ tracer  1        0.1000E-09        0.1000E-09
+
+ Boundary (+ injection) Water Type  1
+ T =  80.00 degrees Celsius, P = 344.20 bar
+        icon        guess        ctot        constrain
+ h2o     1        0.1000E+01        0.1000E+01
+ h+      1        0.1000E-06        0.1000E-06
+ tracer  1        0.1000E-09        0.1000E-09
+
+ Number of initial and boundary waters:  1  1
+
+INITIAL LINEAR.EQ. Kd ZONES
+
+ Kd ZONE=   1
+ species   solid-density(Sden,kg/dm**3)  Kd(l/kg=mass/kg solid / mass/l
+ tracer         0.0000E+00               0.1040E+01                0
+ Total number of Kd zones=  1
+
+ --> Finished reading chemical.inp file
